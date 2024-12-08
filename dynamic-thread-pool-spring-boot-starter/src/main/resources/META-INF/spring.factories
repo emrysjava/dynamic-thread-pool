@@ -1,0 +1,1 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=io.github.emryscheng.dynamic.thread.pool.sdk.config.DynamicThreadPoolAutoConfigUseRedis

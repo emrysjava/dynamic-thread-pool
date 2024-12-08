@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: dynamic-thread-pool-dev-app
+  profiles:
+    active: dev
+dynamic:
+  thread:
+    pool:
+      type: redis

@@ -1,0 +1,23 @@
+server:
+  port: 8091
+
+spring:
+  redisson:
+    #  单机模式
+    # host: localhost
+    # port: 6379
+    # 哨兵模式
+    # sentinel:
+    #   master: mymaster
+    #   nodes: 192.168.10.106:6209,192.168.10.106:6219,192.168.10.106:6229
+    # 集群模式
+    cluster: 192.168.10.106:6109,192.168.10.106:6119,192.168.10.106:6129
+    # 密码
+    password: xj2022
+
+
+# 日志
+logging:
+  level:
+    root: info
+  config: classpath:logback-spring.xml
